@@ -1,6 +1,7 @@
-main{
-    display:flex;
-  }
-  .content{
-    flex:1;
-  }
+{
+  border: 2px dashed red;
+}
+body {
+  display: block;
+  margin: 8px;
+}
