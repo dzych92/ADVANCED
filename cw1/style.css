@@ -1,7 +1,5 @@
-{
-  border: 2px dashed red;
-}
 body {
   display: block;
   margin: 8px;
+  border: 2px dashed red;
 }
