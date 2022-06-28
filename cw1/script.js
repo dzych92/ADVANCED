@@ -23,3 +23,20 @@ const data = [
   }
   
   changeHTMLInfo(0)
+
+  let currSlide = 1;
+  function changeslide( direction){
+    if( direction == "left"){
+        currSlide--
+    }else{
+        currSlide++
+    }
+  }
+  changeHTMLInfo(currSlide)
+
+
+  const leftArr = document.querySelector(".leftArr")
+  leftArr.onclick = function(){
+    changeslide( "left" )
+  }
+  const rightArr = document.querySelector(".rightArr")
