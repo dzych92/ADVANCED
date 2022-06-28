@@ -1,5 +1,22 @@
-body {
-  display: block;
-  margin: 8px;
-  border: 2px dashed red;
+body{
+  background-color: antiquewhite;
+}
+main {
+  display: flex;
+  align-items: center;
+}
+content {
+  flex:1;
+  display: flex;
+  justify-content: center;
+}
+.leftArr,
+.rightArr{
+  padding: 1rem;
+  cursor: pointer;
+  background-color: white;
+}
+.footer{
+  text-align: right;
+  margin-top: 4rem;
 }
