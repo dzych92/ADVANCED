@@ -1,13 +1,22 @@
-const users = ["Jan", "Ewa", "Maria"];  // tablica (array) stringów 
-	const views = [ 		// tablica obiektów
-      {
-        "src" : "1.jpg",
-        "name" : " Pierwszy "
-      },
-      {
-        "src" : "2.jpg",
-        "name" : " Drugi "
-      }
-    ];
+const data = [
+  {
+    title : "Pink lake",
+    src: "1.webp",
+  },
+  {
+    title : "Single Island",
+    src: "2.webp",
+  },
+  {
+    title : "Forest lake",
+    src: "3.webp",
+  },
+]
 
+function changeHTMLInfo( slideNr ){
+  const title = data[slideNr].title
+  const titleDOM = document.querySelector("h2")
+  titleDOM.innerHTML = title
+}
 
+changeHTMLInfo(1)
