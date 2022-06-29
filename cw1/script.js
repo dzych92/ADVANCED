@@ -56,7 +56,7 @@ function changeSlide( direction ){
     // zwiększ licznik slajdu o 1 (przełącz na slajd po prawej stronie)
     currSlide++
   }
-  // blokujemy wyświetlanie slajdów które nie istnieją (-1 itd.. )
+  // blokujemy wyświetlanie slajdów które nie istnieją (-1 itd..)
   // jeśli slajdy w lewo się skończyły - włącz skrajny prawy
   if(currSlide < 0){
     // włącz ostatni slajd po prawej stonie
